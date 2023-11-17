@@ -1,0 +1,7 @@
+List of git commands-
+
+1. Clone - cloning a repository on our local machine
+command - git clone github or other link
+
+2. Status - Display the status of the code.
+command - git status

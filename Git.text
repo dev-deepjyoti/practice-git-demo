@@ -1,0 +1,9 @@
+Q1. Type of file git track.
+
+a. Untracked - new files that git doesn't yet track or known about.
+b. Modified - Old files which are modified.
+c. Staged - File is which is added and ready to be committed.
+d. unmodified - old files which are not modified.
+
+---------------------------------------------------------
+
