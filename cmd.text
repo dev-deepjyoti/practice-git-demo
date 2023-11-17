@@ -2,6 +2,17 @@ List of git commands-
 
 1. Clone - cloning a repository on our local machine
 command - git clone github or other link
-
+---------
 2. Status - Display the status of the code.
 command - git status
+---------
+3. add - adds new or changed files in your working directory to the Git stagging area.
+Files are put to the stagging area.
+command - git add filename (to add one file)
+          git add . (to add multiple files)
+---------
+4. commit - It is used to finalize or final save the stagged files.
+command - git commit -m "some message about the changes."
+---------
+5. push - Upload local repo content to remote repo
+ command - git push origin main
