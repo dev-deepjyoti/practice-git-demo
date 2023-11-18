@@ -1,0 +1,16 @@
+Following are the command for undoing changes.
+
+Case 1: staged changes
+git reset <- filename.ext -> (to reset particular file)
+git reset (to reset all changes)
+
+------------
+
+Case 2: commited changes (for one commit)
+git reset HEAD~1 (to reset to 1 commit earlier)
+
+------------
+
+Case 3: commited changes (for many commits)
+git reset <- comit hash -> (to reset to particular hash)
+git reset --hard <- commit hash -> (to reset to particular hash and show canges in code editor)

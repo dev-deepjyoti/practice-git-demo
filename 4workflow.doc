@@ -1,0 +1,11 @@
+Generally following is the workflow for local git repository.
+
+git init (Use to initialize git in local repo.)
+git remote add origin <-links -> (to add remote repo in our local repo.)
+git remote -v (to verify remote repo)
+git branch (to check branch list)
+git branch -M NewBranchName (to rename the branch name)
+git push origin main (to push code to remote repo)
+git push -u origin main 
+(Used to set upstream for origin branch so that we can 
+push next time with out writing origin again and again.)

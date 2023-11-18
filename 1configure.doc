@@ -1,0 +1,9 @@
+Configuring Git
+
+To configure git for the first time in local machine use the following commands-
+git can also be configure locally in different projects using local keyward,just replace 
+global with local.
+
+git config --global user.name "My Name"
+git config --global user.email "My email"
+git config --list
