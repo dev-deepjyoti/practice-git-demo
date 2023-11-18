@@ -1,18 +1,65 @@
 List of git commands-
 
-1. Clone - cloning a repository on our local machine
-command - git clone github or other link
+1. git clone <- RemoteLink ->
+
+cloning a repository on our local machine from remote.
+
 ---------
-2. Status - Display the status of the code.
-command - git status
+
+2. git status
+
+Display the status of the code.
+
 ---------
-3. add - adds new or changed files in your working directory to the Git stagging area.
+
+3. git add filename.ext (to add one file)
+   git add . (to add multiple files)
+
+adds new or changed files in your working directory to the Git stagging area.
 Files are put to the stagging area.
-command - git add filename (to add one file)
-          git add . (to add multiple files)
+
 ---------
-4. commit - It is used to finalize or final save the stagged files.
-command - git commit -m "some message about the changes."
+
+4. git commit -m "some message about the changes."
+
 ---------
-5. push - Upload local repo content to remote repo
- command - git push origin main
+
+5. git push origin main
+
+Use to push code from local repo to remote repo. where origin is the name 
+of the remote repo and main is the name of the branch.
+
+---------
+
+6. git remote -v
+
+Used to verify remote repo.
+
+---------
+
+7. git branch
+
+Use to check present branch.
+
+---------
+
+8. git branch -M NewBranchName
+
+Use to rename the branch name.
+
+---------
+
+9. git remote add origin <-link->
+
+---------
+
+10. git init 
+
+Use to initialize git in local repo.
+
+11. git push -u origin main
+
+Used to set upstream for origin branch so that we can 
+push next time with out writing origin again and again.
+
+12. 
