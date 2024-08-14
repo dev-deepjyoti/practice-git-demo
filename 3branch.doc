@@ -1,7 +1,0 @@
-Some branch commands are as follows:-
-
-git branch (to check branch)
-git branch -M <- NewBranchName -> (To rename the branch name)
-git checkout <- toBranchName -> (To navigate to branch)
-git checkout -b <- NewBranchName -> (To create a new branch and chekout as well)
-git branch -d <- BranchName -> (To drop or delete old branch. Cannot be done being in that branch.)

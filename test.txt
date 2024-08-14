@@ -1,0 +1,1 @@
+This is text file containing nothing serious. This text is just a demo to practice git cmd.
